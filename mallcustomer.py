@@ -34,7 +34,7 @@ else:
     y_kmeans = kmeans.predict(X)
     plt.scatter(X['Annual_Income_(k$)'], X['Spending_Score'], c=y_kmeans, s=50, cmap='viridis')
     centers = kmeans.cluster_centers_
-    plt.scatter(centers[:,0], centers[:,1], c='black', s=400, alpha=0.5);
+    plt.scatter(centers[:,0], centers[:,1], c='black', s=250, alpha=0.5);
     st.pyplot()
     
     st.set_option('deprecation.showPyplotGlobalUse', False)

@@ -1,7 +1,7 @@
 #Import Packages
 
 import streamlit as st
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as pip
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn import datasets
